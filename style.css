@@ -111,9 +111,10 @@ body * {
 }
 
 /* LINKS */
+
 ul {
   list-style: none;
-
+  
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -127,7 +128,7 @@ ul li a {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
-
+  
   backdrop-filter: blur(4px);
   text-decoration: none;
   font-weight: 500;
@@ -138,16 +139,21 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
   padding: 16px 24px;
-
+  
   background: var(--surface-color-hover);
   border: 3px solid var(--stroke-color);
   border-radius: 8px;
-
+  
   backdrop-filter: blur(4px);
   text-decoration: none;
   font-weight: 500;
-
+  
   transition: background 0.2s;
+}
+#whatsapp {
+  margin-left: 5px;
+  margin-bottom: -2px;
+
 }
 
 /* social media links */
